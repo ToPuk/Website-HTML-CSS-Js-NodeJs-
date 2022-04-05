@@ -33,3 +33,11 @@ npm install
 ```javascript
 npm start
 ```
+# view website
+```javascript
+localhost:3000
+```
+or
+```javascript
+127.0.0.1:3000
+```
