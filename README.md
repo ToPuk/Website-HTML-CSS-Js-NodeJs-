@@ -21,3 +21,15 @@ CREATE TABLE `accounts` (
 ```javascript
 INSERT INTO `nodelogin`.`accounts` (`username`, `password`, `email`) VALUES ('test', 'test', 'test@test.com');
 ```
+# install modules
+```javascript
+npm i
+```
+or
+```javascript
+npm install
+```
+# run server
+```javascript
+npm start
+```
