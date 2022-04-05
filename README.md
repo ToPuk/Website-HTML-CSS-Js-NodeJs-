@@ -23,15 +23,15 @@ INSERT INTO `nodelogin`.`accounts` (`username`, `password`, `email`) VALUES ('te
 ```
 # install modules
 ```javascript
-npm i
+$ npm i
 ```
 or
 ```javascript
-npm install
+$ npm install
 ```
 # run server
 ```javascript
-npm start
+$ npm start
 ```
 # view website
 ```javascript
