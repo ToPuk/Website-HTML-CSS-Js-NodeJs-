@@ -2,9 +2,11 @@
 Bie daalt
 
 # create database
-CREATE DATABASE `nodelogin` /*!40100 DEFAULT CHARACTER SET utf8 */ /*!80016 DEFAULT ENCRYPTION='N' */;
-
+```javascript
+CREATE DATABASE `nodelogin`;
+```
 # create table 
+```javascript
 CREATE TABLE `accounts` (
   `id` int NOT NULL AUTO_INCREMENT,
   `username` varchar(50) NOT NULL,
@@ -14,6 +16,8 @@ CREATE TABLE `accounts` (
   `column_6` tinyint(1) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8;
-
+```
 # insert user
+```javascript
 INSERT INTO `nodelogin`.`accounts` (`username`, `password`, `email`) VALUES ('test', 'test', 'test@test.com');
+```
