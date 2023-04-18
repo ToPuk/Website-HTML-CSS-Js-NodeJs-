@@ -1,5 +1,5 @@
 # website
-Bie daalt
+Гэрийн даалгавар
 
 # create database
 ```javascript
